@@ -10,18 +10,23 @@ It works like a domino effect:
 ---
 ## Principle of Mathematical Induction (PMI) 
 ##### Steps
-- **Base Case:** Verify statement for n = 1. 2. 
-- **Inductive Hypothesis:** Assume true for n = k. 3. 
-- **Inductive Step:** Prove true for n = k+1. 4. 
+- **Base Case:** Verify statement for n = 1.  
+- **Inductive Hypothesis:** Assume true for n = k.  
+- **Inductive Step:** Prove true for n = k+1.  
 - **Conclusion:** Statement holds for all n ∈ N. 
 
 ##### Example:
-- Prove: 1 + 2 + 3 + ... + n = n(n+1)/2 
-- Base Case (n=1): LHS = 1, RHS = 1 → True 
+Prove: 1 + 2 + 3 + ... + n = n(n+1)/2 
+- Base Case (n=1): 
+  - LHS = 1, RHS = 1 → True 
 - Inductive Hypothesis: 
-  - Assume true for n = k 1 + 2 + ... + k = k(k+1)/2 
+  - Assume true for n = k:
+  - 1 + 2 + ... + k = k(k+1)/2 
 - Inductive Step: 
-  - For n = k+1 1 + 2 + ... + k + (k+1) = k(k+1)/2 + (k+1) = (k+1)(k+2)/2 → True 
+  - For n = k+1:
+  - 1 + 2 + ... + k + (k+1) = k(k+1)/2 + (k+1)
+  - Simplify: k(k+1)+2(k+1)/2
+  - (k+1)(k+2)/2 → True 
 - ✅ Hence proved by PMI.
 
 ---
